@@ -153,7 +153,7 @@ const TaxComplianceForm = ({ record, onSubmit, onCancel }) => {
               name="period"
               value={formData.period}
               onChange={handleChange}
-              placeholder="2023-10"
+              placeholder="2025-10"
               className={`input-field ${errors.period ? 'border-red-500' : ''}`}
               required
             />
