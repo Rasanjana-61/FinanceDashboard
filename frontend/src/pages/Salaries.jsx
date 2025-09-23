@@ -636,6 +636,8 @@ const Salaries = () => {
       newErrors.employeeName = 'Employee name is required';
     } else if (!validateText(formData.employeeName)) {
       newErrors.employeeName = 'Employee name cannot contain numbers';
+    } else if (formData.employeeName.length > 20) {
+      newErrors.employeeName = 'Employee name cannot exceed 20 characters';
     }
 
     // Role validation
