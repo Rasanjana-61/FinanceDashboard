@@ -86,8 +86,8 @@ const Expenses = () => {
     // Description validation
     if (!formData.description.trim()) {
       newErrors.description = 'Description is required';
-    } else if (formData.description.length > 200) {
-      newErrors.description = 'Description cannot exceed 200 characters';
+    } else if (formData.description.length > 50) {
+      newErrors.description = 'Description cannot exceed 50 characters';
     }
 
     setErrors(newErrors);
