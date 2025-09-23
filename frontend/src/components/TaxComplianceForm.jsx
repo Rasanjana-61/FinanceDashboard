@@ -158,7 +158,7 @@ const TaxComplianceForm = ({ record, onSubmit, onCancel }) => {
               required
             />
             {errors.period && <p className="text-red-500 text-xs mt-1">{errors.period}</p>}
-            <p className="text-xs text-gray-500 mt-1">Format: YYYY-MM (e.g., 2023-10)</p>
+            <p className="text-xs text-gray-500 mt-1">Format: YYYY-MM (e.g., 2025-10)</p>
           </div>
           
           <div className="mb-4">
