@@ -64,6 +64,7 @@ exports.getIncomes = async (req, res) => {
   }
 };
 
+//Fetches a single income entry using its ID
 exports.getIncome = async (req, res) => {
   try {
     const income = await Income.findById(req.params.id);
@@ -196,4 +197,5 @@ exports.getIncomeSummary = async (req, res) => {
       error: error.message 
     });
   }
+  
 };
