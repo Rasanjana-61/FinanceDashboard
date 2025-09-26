@@ -1042,6 +1042,7 @@ const Salaries = () => {
                   <p className="text-xs text-gray-500 mt-1">Select a past date</p>
                 </div>
               </div>
+              
 
               {/* Salary Calculation Preview */}
               <div className="bg-gray-50 p-4 rounded-lg mb-4">
